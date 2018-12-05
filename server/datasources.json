@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoatlas": {
+    "host": "react-blog-007-shard-00-00-8jnfv.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://admin:Almafa12@react-blog-007-8jnfv.mongodb.net/react-blog-007?retryWrites=true",
+    "password": "Almafa12",
+    "name": "mongoatlas",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}

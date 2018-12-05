@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongoatlas"
+  },
+  "AccessToken": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongoatlas",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongoatlas",
+    "public": false
+  },
+  "leftover": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "address": {
+    "dataSource": "mongoatlas",
+    "public": true
+  },
+  "account": {
+    "dataSource": "mongoatlas",
+    "public": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "account",
+  "plural": "accounts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string",
+      "required": true
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+}
